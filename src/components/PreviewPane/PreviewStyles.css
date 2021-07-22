@@ -1,0 +1,21 @@
+.preview-pane {
+  display: flex;
+  /* height: 100%; */
+  width: 60%;
+  flex: 0 0 auto;
+  flex-direction: column;
+}
+
+.preview-caption {
+  margin-top: 10px;
+  text-align: center;
+  border: none;
+  font-size: 1.35em;
+}
+
+.preview-image {
+  flex: 0 0 auto;
+  height: 85vh;
+  object-fit: cover;
+  border-radius: 10px;
+}

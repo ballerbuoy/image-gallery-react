@@ -1,0 +1,36 @@
+.list-pane {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  flex: 0 0 auto;
+  padding-top: 10px;
+}
+
+.list-item {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+.item-selected {
+  background-color: #2196f3;
+  color: white;
+}
+
+.item-photo {
+  flex: 0 0 auto;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.item-caption {
+  margin-left: 5px;
+  width: 90%;
+  cursor: default;
+  text-align: left;
+}
